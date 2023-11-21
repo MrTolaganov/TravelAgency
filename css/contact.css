@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.form h2 {
+    text-align: center;
+    color: #3e86f5;
+    padding: 10px;
+}
+
+.form form {
+    padding: 0 20px 20px 20px;
+}
+
+form div {
+    padding: 10px;
+}
+
+form .fullname {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+form .fullname div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+form label {
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form input,
+form select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    outline-color: #3e86f5;
+}
+
+form .email-password {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+form .email-password div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+form .data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+form .data div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+form .data div section option {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    outline-color: #3e86f5;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+}
+
+form .btns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.radio label {
+    margin: 0 auto;
+}
+
+form .btns button {
+    margin: 30px;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3e86f5;
+    font-size: 24px;
+    color: #fff;
+}
+
+form .btns button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+form .btns button:hover {
+    background-color: blue;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
