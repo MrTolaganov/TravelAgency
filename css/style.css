@@ -1,190 +1,193 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap'); */
-
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
 body {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .viewport {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../images/bg.png");
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg.png");
 }
 
 .viewport header {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .viewport header .part1 {
-    padding: 24px 130px;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
+  padding: 24px 130px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
 }
 
 .viewport header .part1 h1 {
-    margin: 0 0;
-    color: #fff;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  margin: 0 0;
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .viewport header .part1 .navbtn {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .viewport header .part1 nav {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-right: 0;
-    gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-right: 0;
+  gap: 50px;
 }
 
 .viewport header nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .viewport header nav a:hover {
-    color: #3d86f5;
-    cursor: pointer;
+  color: #3d86f5;
+  cursor: pointer;
 }
 
 .viewport header .part1 button {
-    width: 141px;
-    height: 65px;
-    border-radius: 10px;
-    border: none;
+  width: 141px;
+  height: 65px;
+  border-radius: 10px;
+  border: none;
 }
 
 .viewport header button:hover {
-    background-color: #3d86f5;
-    transition: all 0.5s;
-    cursor: pointer;
+  background-color: #3d86f5;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 .viewport header button a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 500;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .viewport header button a:hover {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
 .viewport section .part2 {
-    width: 100vw;
-    height: 60vh;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 60vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .viewport section .part2 h1 {
-    color: #fff;
-    text-align: center;
-    font-size: 64px;
-    font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
 }
 
 .viewport section .part2 p {
-    color: #fff;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 section .part1 {
-    display: flex;
-    flex-direction: column;
-    margin: -70px 100px;
+  display: flex;
+  flex-direction: column;
+  margin: -70px 100px;
 }
 
 section .part1 .part1-a {
-    width: 179px;
-    height: 50px;
-    background-color: #fff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2px;
+  width: 179px;
+  height: 50px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
 }
 
 section .part1 .part1-a .btn1 {
-    width: 85px;
-    height: 40px;
-    margin: 5px 2px;
-    border-radius: 10px;
-    border-color: #fff;
-    border: none;
-    background-color: rgba(62, 134, 245, 0.2);
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  width: 85px;
+  height: 40px;
+  margin: 5px 2px;
+  border-radius: 10px;
+  border-color: #fff;
+  border: none;
+  background-color: rgba(62, 134, 245, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 section .part1 .part1-a .btn2 {
-    width: 85px;
-    height: 40px;
-    margin: 5px 2px;
-    border-radius: 10px;
-    border-color: #fff;
-    border: none;
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  width: 85px;
+  height: 40px;
+  margin: 5px 2px;
+  border-radius: 10px;
+  border-color: #fff;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 section .part1 .part1-b {
-    background-color: #fff;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  background-color: #fff;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 section .part1-b .part1-b1 {
-    width: 360px;
-    height: 154px;
-    margin: 20px;
-    border: 2px solid rgba(172, 172, 172, 0.5);
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    box-sizing: border-box;
+  width: 360px;
+  height: 154px;
+  margin: 20px;
+  border: 2px solid rgba(172, 172, 172, 0.5);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 
 section .part1-b .part1-b2 {
-    width: 400px;
-    height: 154px;
-    margin: 20px;
-    border: 2px solid rgba(172, 172, 172, 0.5);
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    box-sizing: border-box;
+  width: 400px;
+  height: 154px;
+  margin: 20px;
+  border: 2px solid rgba(172, 172, 172, 0.5);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 
 .part1-b1a,
@@ -193,422 +196,444 @@ section .part1-b .part1-b2 {
 .part1-b2a,
 .part1-b2b,
 .part1-b2c {
-    margin: 10px;
+  margin: 10px;
 }
 
 .part1-b1a p,
 .part1-b1c p,
 .part1-b2a p,
-.part1-b2c p{
-    font-size: 18px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.5);
+.part1-b2c p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .part1-b1a h4,
 .part1-b1c h4,
 .part1-b2a h4,
 .part1-b2c h4 {
-    font-size: 24px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 1);
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
 }
 
 .part1-b2a .part1-b2a1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .part1-b2a .part1-b2a1 p,
 .part1-b2c .part1-b2c1 p {
-    margin-right: 5px;
-} 
+  margin-right: 5px;
+}
 
 .part1-b2a h4,
 .part1-b2c h4 {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .part1-b2c {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .part1-b2c .part1-b2c1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 section .par2 {
-    background-color: whitesmoke;
-    margin-top: -175px;
-    padding-top: 175px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  width: 100vw;
+  background-color: whitesmoke;
+  margin-top: -175px;
+  padding-top: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 section .par2 h2 {
-    font-size: 48px;
-    font-weight: 600;
-    margin: 30px 0;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 30px 0;
 }
 
 section .par2 .btns {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 340px;
-    height: 66px;
-    margin-left: 36%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 340px;
+  height: 66px;
+  margin-left: 36%;
 }
 
 section .par2 .btns .first {
-    width: 100px;
-    height: 46px;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-    background-color: rgba(62, 134, 245, 1);
-    font-size: 18px;
-    font-weight: 500;
+  width: 100px;
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgba(62, 134, 245, 1);
+  font-size: 18px;
+  font-weight: 500;
 }
 
 section .par2 .btns .first:hover {
-    background-color: blue;
-    transition: all 0.2s ease;
-    cursor: pointer;
+  background-color: blue;
+  color: white;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 section .par2 .btns button {
-    width: 100px;
-    height: 46px;
-    border: none;
-    border-radius: 10px;
-    color: #000;
-    background-color: transparent;
-    font-size: 18px;
-    font-weight: 500;
-    margin: 3px;
+  width: 100px;
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 3px;
 }
 
 section .par2 .btns button:hover {
-    background-color: rgba(62, 134, 245, 0.2);
-    color: #3d86f5;
-    cursor: pointer;
+  background-color: rgba(62, 134, 245, 0.2);
+  color: #3d86f5;
+  cursor: pointer;
 }
 
 section .par2 .cards {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 section .par2 .cards .card {
-    background-color: #fff;
-    border-radius: 50px;
-    margin: 20px;
-    padding: 30px;
+  background-color: #fff;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
 }
 
 section .card ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    color: rgba(0, 0, 0, 0.5);
-    padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 0;
 }
 
 section .card ul li {
-    padding-left: 0;
-    list-style-type: none;
-    font-size: 14px;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 14px;
 }
 
 section .card .first-style,
 section .card .third-style {
-    color: #F178B6;
-    background-color: #FCDDEC;
-    border-radius: 10px;
+  color: #f178b6;
+  background-color: #fcddec;
+  border-radius: 10px;
 }
 
 section .cards .card .second-style {
-    color: #7879F1;
-    background-color: #d5d5f5;
-    border-radius: 10px;
+  color: #7879f1;
+  background-color: #d5d5f5;
+  border-radius: 10px;
 }
 
 section .cards .card h3 {
-    display: flex;
-    font-size: 24px;
-    font-weight: 600;
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 section .cards .card-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 section .card-bottom .box1 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 section .box1 .price1 {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 section .box1 .person {
-    font-size: 18px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 section .cards button {
-    width: 107px;
-    height: 47px;
-    border: none;
-    border-radius: 10px;
-    color: #3E86F5;
-    background-color: #F2F6FF;
-    font-size: 14px;
-    font-weight: 500;
+  width: 107px;
+  height: 47px;
+  border: none;
+  border-radius: 10px;
+  color: #3e86f5;
+  background-color: #f2f6ff;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 section .cards button:hover {
-    background-color: #3E86F5;
-    color: #fff;
-    transition: all 0.2s ease;
-    cursor: pointer;
+  background-color: #3e86f5;
+  color: #fff;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 section .part3 {
-    display: flex;
-    justify-content: space-between;
-    background-color: whitesmoke;
-    padding: 100px 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 100px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 section .part3 img {
-    width: 400px;
-    height: 520px;
+  width: 400px;
+  height: 520px;
 }
 
 section .part3 .box {
-    margin: -50px;
-    padding: 0 200px;
+  margin: -50px 0;
+  padding: 0 200px;
+  overflow: hidden;
 }
 
 section .part3 .box h2 {
-    font-size: 48px;
-    font-weight: 600;
+  font-size: 48px;
+  font-weight: 600;
 }
 
 section .part3 .box p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 40px;
-    color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 section .part3 .box button {
-    width: 179px;
-    height: 75px;
-    border-radius: 10px;
-    border: none;
-    color: #fff;
-    background-color: #3E86F5;
-    font-size: 20px;
+  width: 179px;
+  height: 75px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #3e86f5;
+  font-size: 20px;
 }
 
 section .part3 .box button:hover {
-    background-color: blue;
-    transition: all 0.2s ease;
-    cursor: pointer;
+  background-color: blue;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 section .part4 {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section .part4 h2 {
-    font-size: 48px;
-    font-weight: 600;
+  font-size: 48px;
+  font-weight: 600;
 }
 
 section .part4 .btns {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 section .part4 .btns button {
-    width: 120px;
-    height: 46px;
-    border-radius: 10px;
-    border: none;
-    font-size: 18px;
+  width: 120px;
+  height: 46px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
 }
 
 section .part4 .btns button:hover {
-    background-color: #3E86F5;
-    color: #fff;
-    transition: all 0.2s ease;
-    cursor: pointer;
+  background-color: #3e86f5;
+  color: #fff;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 section .part4 .btns .first {
-    background-color: transparent;
-    color: #3E86F5;
+  background-color: transparent;
+  color: #3e86f5;
 }
 
 section .part4 .cards {
-    margin: 50px 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 section .part4 .cards svg,
 section .part4 .cards p {
-    display: inline-block;
+  display: inline-block;
 }
 
 section .part4 .cards svg {
-    color: tomato;
+  color: tomato;
 }
 
 section .part4 .cards h4 {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 section .part4 .cards div {
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 25px;
-    box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.10);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.1);
 }
 
 section .part5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: whitesmoke;
-    padding: 100px 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 100px 20px;
+  box-sizing: border-box;
 }
 
 section .part5 .box1,
 section .part5 .box2 {
-    width: 500px;
-    height: 410px;
-    background-color: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 500px;
+  height: 410px;
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section .part5 .box1 p,
 section .part5 .box2 p {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 209%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 209%;
 }
 
 section .part5 .box1 h5,
 section .part5 .box2 h5 {
-    color: #3E86F5;
-    font-size: 20px;
-    font-weight: 700;
+  color: #3e86f5;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 section .part5 .box1 h6,
 section .part5 .box2 h6 {
-    margin-top: -10px;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.5);
+  margin-top: -10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  overflow: hidden;
 }
 
 footer .part1 {
-    width: 1180;
-    height: 500px;
-    margin: 20px;
-    background-image: url("../images/unsplash_Q1p7bh3SHj8.png");
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 500px;
+  margin: 20px;
+  background-image: url("../images/unsplash_Q1p7bh3SHj8.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .part1 h2 {
-    font-size: 48px;
-    color: #fff;
-    font-weight: 600;
-    text-align: center;
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
 }
 
 footer .part1 button {
-    width: 220px;
-    height: 80px;
-    border-radius: 25px;
-    border: none;
-    color: #3d86f5;
-    background-color: #fff;
-    font-size: 20px;
+  width: 220px;
+  height: 80px;
+  border-radius: 25px;
+  border: none;
+  color: #3d86f5;
+  background-color: #fff;
+  font-size: 20px;
 }
 
 footer .part1 button:hover {
-    background-color: #3d86f5;
-    color: #fff;
-    transition: all 0.2s ease;
-    cursor: pointer;
+  background-color: #3d86f5;
+  color: #fff;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 footer .part2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
 }
 
 footer .part2 p {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
 }
 
 footer .part2 .nav {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
 }
 
 footer .part2 .nav a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.75);
-    font-size: 24px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 24px;
 }
 
 footer .part2 .nav a:hover {
-    color: #3E86F5;
-    cursor: pointer;
+  color: #3e86f5;
+  cursor: pointer;
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
