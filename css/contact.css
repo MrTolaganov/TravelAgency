@@ -1,123 +1,138 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
-
 body {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: poppins;
-    background-color: whitesmoke;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.form {
+  margin-top: 4rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 3rem;
 }
 
-.form {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    border: none;
+.form:hover {
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
 }
 
 .form h2 {
-    text-align: center;
-    color: #3e86f5;
-    padding: 10px;
+  text-align: center;
+  color: #3e86f5;
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
 .form form {
-    padding: 0 20px 20px 20px;
+  padding: 0 20px 20px 20px;
 }
 
 form div {
-    padding: 10px;
+  padding: 10px;
 }
 
 form .fullname {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 form .fullname div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 form label {
-    padding: 5px;
-    color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 form input,
 form select {
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    outline-color: #3e86f5;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  outline-color: #3e86f5;
 }
 
 form .email-password {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 form .email-password div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 form .data {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 form .data div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 form .data div section option {
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    outline-color: #3e86f5;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  outline-color: #3e86f5;
 }
 
 .radio {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 form .btns {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .radio label {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
-form .btns button {
-    margin: 30px;
-    width: 95%;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    background-color: #3e86f5;
-    font-size: 24px;
-    color: #fff;
+form .btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-form .btns button a {
-    text-decoration: none;
-    color: #fff;
+form .btns a {
+  display: inline-block;
+  /* margin: 2rem 0; */
+  
+  padding: 0 .5rem;
+  border-radius: .5rem;
+  border: none;
+  background-color: #3e86f5;
+  color: #fff;
+}
+
+form .btns a button {
+  width: 15.25rem;
+  height: 2.5rem;
+  background-color:#3e86f5;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
 }
 
 form .btns button:hover {
-    background-color: blue;
-    transition: all 0.2s ease;
-    cursor: pointer;
+  background-color: blue;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }

@@ -1,18 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap'); */
-html {
-  box-sizing: border-box;
-  margin: 0;
-}
-body {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
 .viewport {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .viewport header {
@@ -20,8 +11,7 @@ body {
 }
 
 .viewport header .part1 {
-  padding: 24px 130px;
-  margin: 0;
+  padding: 1.5rem 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,33 +19,25 @@ body {
 }
 
 .viewport header .part1 h1 {
-  margin: 0 0;
   color: #fff;
-  font-size: 48px;
-  font-style: normal;
+  font-size: 3rem;
   font-weight: 500;
-  line-height: normal;
-}
-
-.viewport header .part1 .navbtn {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .viewport header .part1 nav {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-right: 0;
-  gap: 50px;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
 }
 
 .viewport header nav a {
   color: #fff;
   text-decoration: none;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.viewport header nav a button {
+  font-size: 1.5rem;
 }
 
 .viewport header nav a:hover {
@@ -64,75 +46,63 @@ body {
 }
 
 .viewport header .part1 button {
-  width: 141px;
-  height: 65px;
-  border-radius: 10px;
+  width: 8rem;
+  height: 4rem;
+  border-radius: 0.5rem;
   border: none;
 }
 
 .viewport header button:hover {
   background-color: #3d86f5;
+  color: #fff;
   transition: all 0.5s;
   cursor: pointer;
 }
 
-.viewport header button a {
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.viewport header button a:hover {
-  color: #fff;
-  cursor: pointer;
-}
-
 .viewport section .part2 {
-  width: 100vw;
-  height: 60vh;
+  padding: 5rem 0;
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .viewport section .part2 h1 {
   color: #fff;
   text-align: center;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .viewport section .part2 p {
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 section .part1 {
   display: flex;
   flex-direction: column;
-  margin: -70px 100px;
+  margin: -5.5rem 6rem;
 }
 
 section .part1 .part1-a {
-  width: 179px;
-  height: 50px;
+  width: 13rem;
+  height: 4rem;
   background-color: #fff;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2px;
 }
 
 section .part1 .part1-a .btn1 {
-  width: 85px;
-  height: 40px;
+  width: 6rem;
+  height: 3rem;
   margin: 5px 2px;
-  border-radius: 10px;
+  border-radius: 1rem;
   border-color: #fff;
   border: none;
   background-color: rgba(62, 134, 245, 0.2);
@@ -143,10 +113,10 @@ section .part1 .part1-a .btn1 {
 }
 
 section .part1 .part1-a .btn2 {
-  width: 85px;
-  height: 40px;
+  width: 6rem;
+  height: 3rem;
   margin: 5px 2px;
-  border-radius: 10px;
+  border-radius: 1rem;
   border-color: #fff;
   border: none;
   background-color: transparent;
@@ -158,36 +128,35 @@ section .part1 .part1-a .btn2 {
 
 section .part1 .part1-b {
   background-color: #fff;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
 }
 
 section .part1-b .part1-b1 {
-  width: 360px;
-  height: 154px;
-  margin: 20px;
+  width: 33.5rem;
+  height: 10rem;
+  margin: 1.25rem;
   border: 2px solid rgba(172, 172, 172, 0.5);
-  border-radius: 15px;
+  border-radius: 1rem;
   display: flex;
   align-items: center;
-  padding-left: 30px;
-  box-sizing: border-box;
+  justify-content: space-evenly;
 }
 
 section .part1-b .part1-b2 {
-  width: 400px;
-  height: 154px;
-  margin: 20px;
+  width: 33.5rem;
+  height: 10rem;
+  margin: 1.25rem;
   border: 2px solid rgba(172, 172, 172, 0.5);
-  border-radius: 15px;
+  border-radius: 1rem;
   display: flex;
   align-items: center;
-  padding-left: 30px;
-  box-sizing: border-box;
+  justify-content: space-evenly;
 }
 
 .part1-b1a,
@@ -196,14 +165,14 @@ section .part1-b .part1-b2 {
 .part1-b2a,
 .part1-b2b,
 .part1-b2c {
-  margin: 10px;
+  margin: 1rem;
 }
 
 .part1-b1a p,
 .part1-b1c p,
 .part1-b2a p,
 .part1-b2c p {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -212,7 +181,7 @@ section .part1-b .part1-b2 {
 .part1-b1c h4,
 .part1-b2a h4,
 .part1-b2c h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   color: rgba(0, 0, 0, 1);
 }
@@ -228,9 +197,11 @@ section .part1-b .part1-b2 {
   margin-right: 5px;
 }
 
+.part1-b1a h4,
+.part1-b1c h4,
 .part1-b2a h4,
 .part1-b2c h4 {
-  margin-top: 15px;
+  margin-top: 1rem;
 }
 
 .part1-b2c {
@@ -246,10 +217,9 @@ section .part1-b .part1-b2 {
 }
 
 section .par2 {
-  width: 100vw;
   background-color: whitesmoke;
-  margin-top: -175px;
-  padding-top: 175px;
+  margin-top: -11rem;
+  padding-top: 11rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -257,9 +227,10 @@ section .par2 {
 }
 
 section .par2 h2 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
-  margin: 30px 0;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 
 section .par2 .btns {
@@ -267,10 +238,10 @@ section .par2 .btns {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  width: 340px;
-  height: 66px;
-  margin-left: 36%;
+  border-radius: 0.5rem;
+  width: 22rem;
+  height: 4rem;
+  margin: 0 auto;
 }
 
 section .par2 .btns .first {
@@ -310,54 +281,72 @@ section .par2 .btns button:hover {
 }
 
 section .par2 .cards {
-  margin-top: 50px;
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 section .par2 .cards .card {
   background-color: #fff;
-  border-radius: 50px;
-  margin: 20px;
-  padding: 30px;
+  border-radius: 5rem;
+  margin: 1.25rem;
+  padding: 2rem;
+}
+
+section .par2 .cards .card:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+section .par2 .cards img {
+  width: 100%;
+  overflow: hidden;
+}
+
+section .par2 .cards img:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.05);
 }
 
 section .card ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   color: rgba(0, 0, 0, 0.5);
-  padding-left: 0;
+  padding: 1rem 0;
 }
 
 section .card ul li {
-  padding-left: 0;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 section .card .first-style,
 section .card .third-style {
   color: #f178b6;
   background-color: #fcddec;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 section .cards .card .second-style {
   color: #7879f1;
   background-color: #d5d5f5;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 section .cards .card h3 {
-  display: flex;
-  font-size: 24px;
+  text-align: left;
+  font-size: 1.5rem;
   font-weight: 600;
+  padding: 1rem 0;
 }
 
 section .cards .card-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 0;
 }
 
 section .card-bottom .box1 {
@@ -366,25 +355,24 @@ section .card-bottom .box1 {
 }
 
 section .box1 .price1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 section .box1 .person {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
 }
 
 section .cards button {
-  width: 107px;
-  height: 47px;
+  width: 6rem;
+  height: 3rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   color: #3e86f5;
   background-color: #f2f6ff;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 1rem;
 }
 
 section .cards button:hover {
@@ -395,46 +383,44 @@ section .cards button:hover {
 }
 
 section .part3 {
-  width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: whitesmoke;
-  padding: 100px 20px;
-  box-sizing: border-box;
-  overflow: hidden;
+  gap: 15rem;
+  padding: 10rem 2rem;
 }
 
 section .part3 img {
-  width: 400px;
-  height: 520px;
+  width: 35rem;
+  height: 35rem;
 }
 
 section .part3 .box {
-  margin: -50px 0;
-  padding: 0 200px;
-  overflow: hidden;
+  padding-right: 14rem;
 }
 
 section .part3 .box h2 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 section .part3 .box p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 3rem;
   color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
 }
 
 section .part3 .box button {
-  width: 179px;
-  height: 75px;
-  border-radius: 10px;
+  width: 12rem;
+  height: 5rem;
+  border-radius: 1rem;
   border: none;
   color: #fff;
   background-color: #3e86f5;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 section .part3 .box button:hover {
@@ -444,29 +430,29 @@ section .part3 .box button:hover {
 }
 
 section .part4 {
-  width: 100vw;
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 section .part4 h2 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 section .part4 .btns {
   background-color: transparent;
+  margin-bottom: 4rem;
 }
 
 section .part4 .btns button {
-  width: 120px;
-  height: 46px;
-  border-radius: 10px;
+  width: 7.5rem;
+  height: 3rem;
+  border-radius: 0.5rem;
   border: none;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 section .part4 .btns button:hover {
@@ -482,10 +468,15 @@ section .part4 .btns .first {
 }
 
 section .part4 .cards {
-  margin: 50px 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 2rem;
+}
+
+section .part4 .cards .card:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 section .part4 .cards svg,
@@ -498,44 +489,49 @@ section .part4 .cards svg {
 }
 
 section .part4 .cards h4 {
-  margin-bottom: 0px;
+  margin: 1rem 0;
 }
 
-section .part4 .cards div {
+section .part4 .cards .card {
   background-color: #fff;
-  padding: 10px;
-  border-radius: 25px;
+  padding: 1rem;
+  border-radius: 1.5rem;
   box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.1);
 }
 
 section .part5 {
-  width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: whitesmoke;
-  padding: 100px 20px;
-  box-sizing: border-box;
+  padding: 6rem 6rem;
+  gap: 6rem;
 }
 
 section .part5 .box1,
 section .part5 .box2 {
-  width: 500px;
-  height: 410px;
   background-color: #fff;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 50px;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+section .part5 .box1:hover,
+section .part5 .box2:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+
 section .part5 .box1 p,
 section .part5 .box2 p {
+  margin: 2rem 0;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 209%;
 }
@@ -543,52 +539,53 @@ section .part5 .box2 p {
 section .part5 .box1 h5,
 section .part5 .box2 h5 {
   color: #3e86f5;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 section .part5 .box1 h6,
 section .part5 .box2 h6 {
-  margin-top: -10px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
 }
 
 footer {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  overflow: hidden;
 }
 
 footer .part1 {
-  width: 100vw;
-  height: 500px;
-  margin: 20px;
+  height: 32rem;
+  margin: 2rem;
   background-image: url("../images/unsplash_Q1p7bh3SHj8.png");
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 7rem;
 }
 
 footer .part1 h2 {
-  font-size: 48px;
+  font-size: 3rem;
   color: #fff;
   font-weight: 600;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 footer .part1 button {
-  width: 220px;
-  height: 80px;
-  border-radius: 25px;
+  width: 14rem;
+  height: 5rem;
+  border-radius: 1.5rem;
   border: none;
   color: #3d86f5;
   background-color: #fff;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 footer .part1 button:hover {
@@ -602,38 +599,27 @@ footer .part2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 2rem;
 }
 
 footer .part2 p {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 footer .part2 .nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
+  gap: 3rem;
 }
 
 footer .part2 .nav a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.75);
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 footer .part2 .nav a:hover {
   color: #3e86f5;
   cursor: pointer;
-}
-
-.fadeIn {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.visible {
-  opacity: 1;
-  transform: translateY(0);
 }
